@@ -100,3 +100,9 @@ for k, v in p.items():
 # %%
 p
 # %%
+p2 = {}
+for k, v in p.items():
+    if v >= 0.3:
+        p2[k] = v
+p2
+# %%
