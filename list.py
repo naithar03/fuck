@@ -83,3 +83,20 @@ for i in b:
 e = dict([(list('python'), 1990)])
 e
 # %%
+import math
+math.pi
+
+
+# %%
+math.e
+# %%
+round(math.pi, 3)
+# %%
+p = dict(apple=0.4, orange=0.412, banana=0.14)
+p
+# %%
+for k, v in p.items():
+    p[k] = round(v * 0.9, 2)
+# %%
+p
+# %%
