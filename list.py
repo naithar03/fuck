@@ -64,3 +64,22 @@ lis[2] = 20
 lis
 # 191 ~ 192 페이지 내용
 # %%
+help(tuple)
+# %%
+help(dict)
+# %%
+a = {'python': 1990, 'c': 1972}
+type(a)
+# %%
+b = dict((('python', 1990), ('c', 1982)))
+b
+# %%
+b['python'] = 1999
+b['c#'] = 1992
+# %%
+for i in b:
+    print(i)
+# %%
+e = dict([(list('python'), 1990)])
+e
+# %%
