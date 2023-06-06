@@ -106,3 +106,12 @@ for k, v in p.items():
         p2[k] = v
 p2
 # %%
+
+ns = [1, 2, 3, 4]
+sq = []
+
+for n in ns:
+    sq.append(n ** 2)
+
+sq
+# %%
